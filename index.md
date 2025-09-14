@@ -1,5 +1,3 @@
-# MTE Capstone
-
 **Group Members**  
 - Angad, Annie, Larry, Fracisco, Waris  
 
