@@ -1,5 +1,5 @@
 **Group Members**  
-- Angad, Annie, Larry, Fracisco, Waris  
+- Angad, Annie, Francisco, Larry, Waris  
 
 ---
 
