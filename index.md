@@ -1,8 +1,233 @@
-**Group Members**  
-- Angad, Annie, Francisco, Larry, Waris  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MTE 481 FYDP Group 23</title>
 
----
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
-## Meetings
-- [September 9, 2025](./meetings/sept-9-2025.md)  
-- [September 10, 2025](./meetings/sept-10-2025.md)
+  <style>
+    body {
+      font-family: 'Work Sans', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #7b6f90;
+      color: white;
+      padding: 20px 0 10px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 28px;
+      margin: 0;
+    }
+
+    header p {
+      margin: 4px 0 13px;
+      font-size: 16px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Work Sans', sans-serif;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    ul li p {
+      margin: 4px 0 10px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    /* Email styling */
+    .copy-email {
+      color: #004080;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .copy-email:hover {
+      color: #00264d;
+    }
+
+    /* Log Entry Styling */
+    details.log-entry {
+      background-color: white;
+      margin-bottom: 20px;
+      border-left: 5px solid #7b6f90;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: transform 0.3s ease, font-size 0.3s ease, box-shadow 0.3s ease;
+      font-size: 1em;
+      transform-origin: center;
+      position: relative;
+      z-index: 0;
+      border-radius: 6px;
+    }
+
+    details.log-entry summary {
+      padding: 15px;
+      font-weight: bold;
+      font-size: inherit;
+      list-style: none;
+      outline: none;
+      user-select: none;
+      display: block;
+    }
+
+    details.log-entry summary::marker {
+      display: none;
+    }
+
+    details.log-entry p {
+      padding: 0 15px 15px 15px;
+      margin: 0;
+      font-size: inherit;
+    }
+
+    details.log-entry.open {
+      transform: scale(1.2);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #ddd;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MTE 481 FYDP Group 23</h1>
+    <p>Capstone Design Project Log</p>
+  </header>
+
+  <div class="container">
+    <h2>Team Members</h2>
+    <ul>
+      <li>
+        Francisco Jao - Electrical
+        <p>Email: <span class="copy-email" data-email="fmojao@uwaterloo.ca">fmojao@uwaterloo.ca</span></p>
+      </li>
+      <li>
+        Annie Lee - Electrical
+        <p>Email: <span class="copy-email" data-email="a363lee@uwaterloo.ca">a363lee@uwaterloo.ca</span></p>
+      </li>
+      <li>
+        Angadbir Singh - Mechanical
+        <p>Email: <span class="copy-email" data-email="a555sing@uwaterloo.ca">a555sing@uwaterloo.ca</span></p>
+      </li>
+      <li>
+        Larry Wu - Mechanical
+        <p>Email: <span class="copy-email" data-email="l233wu@uwaterloo.ca">l233wu@uwaterloo.ca</span></p>
+      </li>
+      <li>
+        Waris Zahoor - Software
+        <p>Email: <span class="copy-email" data-email="w2zahoor@uwaterloo.ca">w2zahoor@uwaterloo.ca</span></p>
+      </li>
+    </ul>
+
+    <h2>Project Description</h2>
+    <p>
+      Brief description of the capstone project. Section for objectives, goals, and current progress overview.
+    </p>
+
+    <h2>Progress Logs</h2>
+
+    <details class="log-entry">
+      <summary><strong>Week 1 - Sept 8, 2025</strong></summary>
+      <p>
+        Initial project kickoff. Selected tools for collaboration and website creation. Set up GitHub repository.
+      </p>
+    </details>
+
+    <details class="log-entry">
+      <summary><strong>Week 2 - Sept 15, 2025</strong></summary>
+      <p>
+        Completed initial research and project selection. State Design Problem - what is needed.
+      </p>
+    </details>
+
+    <details class="log-entry">
+      <summary><strong>Week 3 - Sept 22, 2025</strong></summary>
+      <p>
+        Defined system architecture. Started preliminary design documentation and component selection.
+      </p>
+    </details>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Group 23 | MTE 481 | University of Waterloo
+  </footer>
+
+  <script>
+    // Expandable log entries
+    const allEntries = document.querySelectorAll('details.log-entry');
+
+    allEntries.forEach(entry => {
+      const summary = entry.querySelector('summary');
+
+      summary.addEventListener('click', e => {
+        e.preventDefault();
+        const isOpen = entry.hasAttribute('open');
+
+        allEntries.forEach(e => {
+          e.removeAttribute('open');
+          e.classList.remove('open');
+        });
+
+        if (!isOpen) {
+          entry.setAttribute('open', '');
+          entry.classList.add('open');
+        }
+      });
+    });
+
+    // Copy email functionality
+    document.querySelectorAll('.copy-email').forEach(span => {
+      span.title = 'Click to copy email';
+      span.addEventListener('click', () => {
+        const email = span.getAttribute('data-email');
+        navigator.clipboard.writeText(email).then(() => {
+          const originalText = email;
+          span.textContent = originalText + ' (Copied!)';
+          setTimeout(() => {
+            span.textContent = originalText;
+          }, 1500);
+        }).catch(err => {
+          console.error('Failed to copy email: ', err);
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
