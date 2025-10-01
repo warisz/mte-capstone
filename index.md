@@ -1,8 +1,3 @@
----
-layout: default
-title: MTE 481 FYDP Group 23
----
-
 # MTE 481 FYDP Group 23
 ## Capstone Design Project Log
 
@@ -32,7 +27,3 @@ Brief description of the capstone project. Section for objectives, goals, and cu
 - [Week 2 - Sept 8, 2025](meetings/sept-9-2025.md)
 - [Week 3 - Sept 15, 2025](meetings/sept-10-2025.md)
 - [Week 4 - Sept 22, 2025](meetings/sept-22-2025.md)
-
----
-
-© 2025 Group 23 | MTE 481 | University of Waterloo
