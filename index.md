@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Capstone Design Project Log, Group 23
 ---
 
