@@ -1,4 +1,4 @@
 markdown: kramdown
-theme: minima
+theme: null
 header_pages: []
 title: ""   # optional: blank so footer doesn’t show site title
