@@ -22,7 +22,9 @@ title: Capstone Design Project Log, Group 23
 
 ## Project Description
 
-Brief description of the capstone project. Section for objectives, goals, and current progress overview.
+Need Statement: Industrial and building systems require a safe, cost-effective and reliable method to remove scale build-up from 100-150mm pipelines, where existing solutions such as chemical cleaning, pigging and jetting are either hazardous, resource intensive or in-effective at hard deposits.  
+
+Problem Statement: design a low-cost robotic system that can navigate 100-150mm diameter pipelines, mechanically remove scale and improve flow performance while being able to adapt to varying pipe sizes and geometries.  
 
 ## Progress Logs
 
