@@ -1,4 +1,7 @@
-## Capstone Design Project Log
+---
+layout: page
+title: Capstone Design Project Log, Group 23
+---
 
 ## Team Members
 
