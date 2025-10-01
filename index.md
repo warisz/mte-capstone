@@ -1,4 +1,3 @@
-# MTE 481 FYDP Group 23
 ## Capstone Design Project Log
 
 ## Team Members
