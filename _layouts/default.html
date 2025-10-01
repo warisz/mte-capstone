@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Work+Sans:wght@300;400;500&display=swap');
 
@@ -11,22 +13,23 @@
         color: #333;
       }
 
-      header {
-        background-color: #7b6f90;
-        color: white;
-        padding: 20px 0 10px;
+      /* Purple nav bar */
+      .navbar {
+        background-color: #7b6f90; /* purple shade */
+        padding: 15px 20px;
         text-align: center;
       }
 
-      header h1 {
+      .navbar a {
+        color: white;
+        text-decoration: none;
         font-family: 'Oswald', sans-serif;
-        font-size: 28px;
-        margin: 0;
+        font-size: 22px;
+        font-weight: 600;
       }
 
-      header p {
-        margin: 4px 0 13px;
-        font-size: 16px;
+      .navbar a:hover {
+        text-decoration: underline;
       }
 
       .container {
@@ -41,41 +44,14 @@
         padding-bottom: 5px;
         margin-top: 30px;
       }
-
-      ul {
-        list-style-type: disc;
-        padding-left: 20px;
-      }
-
-      ul li {
-        margin-bottom: 10px;
-      }
-
-      ul li p {
-        margin: 4px 0 10px;
-        font-size: 0.9em;
-        color: #555;
-      }
-
-      .copy-email {
-        color: #004080;
-        text-decoration: underline;
-        cursor: pointer;
-      }
-
-      .copy-email:hover {
-        color: #00264d;
-      }
-
-      footer {
-        text-align: center;
-        padding: 10px;
-        background-color: #ddd;
-        margin-top: 40px;
-      }
     </style>
   </head>
   <body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+      <a href="{{ '/' | relative_url }}">MTE Capstone Group 23</a>
+    </div>
+
     <main aria-label="Content">
       <div class="container">
         {{ content }}
