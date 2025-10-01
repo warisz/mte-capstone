@@ -31,3 +31,4 @@ Problem Statement: design a low-cost robotic system that can navigate 100-150mm 
 - [Week 2 - Sept 8, 2025](meetings/sept-9-2025.md)
 - [Week 3 - Sept 15, 2025](meetings/sept-10-2025.md)
 - [Week 4 - Sept 22, 2025](meetings/sept-22-2025.md)
+- [Week 5 - Sept 29, 2025](/meetings/sept-29-2025.md)
