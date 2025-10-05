@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Work+Sans:wght@300;400;500&display=swap');
@@ -44,37 +44,51 @@
         margin-top: 30px;
       }
 
-      /* Progress Logs box styles */
+      /* Flex container for progress logs */
       .progress-logs {
         display: flex;
-        flex-direction: column;
-        gap: 15px;
+        flex-wrap: wrap;
+        gap: 20px;
         padding-left: 0;
+        margin: 0;
         list-style: none;
+        justify-content: flex-start;
       }
 
       .progress-logs li {
         background: white;
         padding: 15px 20px;
-        border-radius: 7px;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
         border-left: 6px solid #7b6f90;
+        flex: 1 1 calc(33.333% - 20px);
+        box-sizing: border-box;
+        min-width: 250px; /* Ensures it doesn't get too small */
         transition: background-color 0.2s ease;
+        list-style: none;
       }
 
       .progress-logs li:hover {
         background-color: #f0e6ff;
       }
 
-      .progress-logs a {
-        color: #7b6f90;
-        font-weight: 600;
+      .progress-logs li a {
         text-decoration: none;
+        font-weight: 600;
+        color: #7b6f90;
         font-size: 1.1em;
       }
 
-      .progress-logs a:hover {
+      .progress-logs li a:hover {
         text-decoration: underline;
+      }
+
+      /* Responsive: stack on smaller screens */
+      @media (max-width: 768px) {
+        .progress-logs li {
+          flex: 1 1 100%;
+          min-width: auto;
+        }
       }
     </style>
   </head>
