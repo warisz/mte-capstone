@@ -32,3 +32,34 @@ Problem Statement: design a low-cost robotic system that can navigate 100-150mm 
 - [Week 3 - Sept 15, 2025](meetings/sept-10-2025.md)
 - [Week 4 - Sept 22, 2025](meetings/sept-22-2025.md)
 - [Week 5 - Sept 29, 2025](/meetings/sept-29-2025.md)
+
+- ## Progress Logs
+
+<div class="log-list">
+
+<div class="log-card">
+  <h3>Week 2</h3>
+  <p>📅 Sept 8, 2025</p>
+  <a href="meetings/sept-9-2025.md">Read Log →</a>
+</div>
+
+<div class="log-card">
+  <h3>Week 3</h3>
+  <p>📅 Sept 15, 2025</p>
+  <a href="meetings/sept-10-2025.md">Read Log →</a>
+</div>
+
+<div class="log-card">
+  <h3>Week 4</h3>
+  <p>📅 Sept 22, 2025</p>
+  <a href="meetings/sept-22-2025.md">Read Log →</a>
+</div>
+
+<div class="log-card">
+  <h3>Week 5</h3>
+  <p>📅 Sept 29, 2025</p>
+  <a href="/meetings/sept-29-2025.md">Read Log →</a>
+</div>
+
+</div>
+
