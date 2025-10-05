@@ -33,25 +33,25 @@ Design a low-cost robotic system that can navigate 100–150 mm diameter pipel
 <div class="log-list">
 
 <div class="log-card">
-  ### Week 2  
+  Week 2  
   📅 Sept 8, 2025  
   [Read Log →](meetings/sept-9-2025.md)
 </div>
 
 <div class="log-card">
-  ### Week 3  
+  Week 3  
   📅 Sept 15, 2025  
   [Read Log →](meetings/sept-10-2025.md)
 </div>
 
 <div class="log-card">
-  ### Week 4  
+  Week 4  
   📅 Sept 22, 2025  
   [Read Log →](meetings/sept-22-2025.md)
 </div>
 
 <div class="log-card">
-  ### Week 5  
+  Week 5  
   📅 Sept 29, 2025  
   [Read Log →](meetings/sept-29-2025.md)
 </div>
