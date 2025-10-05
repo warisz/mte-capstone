@@ -33,10 +33,9 @@ Design a low-cost robotic system that can navigate 100–150 mm diameter pipel
 <div class="log-list">
 
 <div class="log-card">
-  ### Week 2  
+  <h3>Week 2</h3>
+  [Week 2 - Sept 8, 2025](meetings/sept-9-2025.md)
   📅 Sept 8, 2025  
-  <a href="https://github.com/warisz/mte-capstone/blob/c2748ce4c6ec4a0905e86f81372e6f5ab8c2e3de/meetings/sept-10-2025.md">Read Log →</a>
-  [Read Log →](meetings/sept-9-2025/)
 </div>
 
 <div class="log-card">
