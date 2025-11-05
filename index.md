@@ -23,10 +23,10 @@ title: Capstone Design Project Log, Group 23
 ## Project Description
 
 **Need Statement:**  
-Industrial and building systems require a safe, cost-effective and reliable method to remove scale build-up from 100–150 mm pipelines, where existing solutions (chemical cleaning, pigging, jetting) are hazardous, resource-intensive, or ineffective.
+Industrial and building systems require a practical, affordable, and reliable way to detect corrosion under insulation in steel piping, since current inspection methods are costly and designed mainly for large installations.
 
 **Problem Statement:**  
-Design a low-cost robotic system that can navigate 100–150 mm diameter pipelines, mechanically remove scale, and improve flow performance, while adapting to varying pipe sizes and geometries.
+Design a low-cost, modular, and non-destructive testing device that can be rolled along insulated pipes and provide a real-time imaging of corrosion under insulation (CUI), while adapting to various pipe sizes and geometries.
 
 ## Progress Logs
 
