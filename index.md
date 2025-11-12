@@ -39,3 +39,4 @@ Design a low-cost, modular, and non-destructive testing device that can be rolle
   - [📅 Week 8 - Oct 20, 2025](meetings/oct-20-2025.md)
   - [📅 Week 9 - Oct 27, 2025](meetings/oct-27-2025.md)
   - [📅 Week 10 - Nov 3, 2025](meetings/nov-3-2025.md)
+  - [📅 Week 11 - Nov 10, 2025](meetings/nov-10-2025.md)
