@@ -1,0 +1,11 @@
+---
+layout: default
+title: March, 2026
+---
+
+# March, 2026
+## Work sessions
+- March 1-3: PCB assembly
+- March 5: Rev 1 CAD integration and testing, getting raw ADC value by wiring output before low pass filter helped with debugging
+- March 6: Pipe testing and wire testing
+- March 8: Tested on a steel plate with defects/cracks
