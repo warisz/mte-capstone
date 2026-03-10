@@ -14,7 +14,7 @@ title: Capstone Design Project Log, Group 23
 - **Larry Wu** – Mechanical  
   Email: l233wu@uwaterloo.ca
 
-- **Waris Zahoor** – Software  
+- **Waris Zahoor** – Firmware  
   Email: w2zahoor@uwaterloo.ca
 
 ## Project Description
