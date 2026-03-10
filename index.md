@@ -11,7 +11,7 @@ title: Capstone Design Project Log, Group 23
 - **Annie Lee** – Electrical  
   Email: a363lee@uwaterloo.ca
 
-- **Angadbir Singh** –  
+- **Angadbir Singh**
   Email: a555sing@uwaterloo.ca
 
 - **Larry Wu** – Mechanical  
